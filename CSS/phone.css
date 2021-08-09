@@ -1,0 +1,25 @@
+
+#home{
+height: 380px;
+}
+#home::before{
+    height: 480px; 
+}
+
+#services{
+    flex-direction: column;
+}
+#navbar {
+    flex-direction: column;
+}
+    #home::before{
+        height: 97%;
+        }
+
+        #navbar ul li a{
+            font-size: 1rem;
+            
+        }
+.hprimary{
+    font-size: 26px;
+}

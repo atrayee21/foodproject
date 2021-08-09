@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+
+block style
+    style   
+        include ../static/style.css
+        include ../static/cstyle.css
+
+block content
+    #contactbox
+        form(action='/contact',method="post")
+          .formgroup
+            label(for='name') Name: 
+            input#name(type='text', name='name', placeholder='Enter your name' autocomplete="off")
+          .formgroup
+            label(for='email') Email: 
+            input#email(type='email', name='email', placeholder='Enter your email' autocomplete="off")
+          .formgroup
+            label(for='phone') Phone Number: 
+            input#phone(type='phone', name='phone', placeholder='Enter your phone number' autocomplete="off")
+          .formgroup
+            label(for='order') Order: 
+            textarea#message(name='orders', cols='30', rows='10' autocomplete="off")
+          button.btn.btn-primary(type='submit') Submit
+
+          section#menu
+            h1 OUR MENU
+              h1 Niramisher Bahaar (Veg Main Course)
+              p.menus 1.Basmati Rice, Dal, Bhaja, 2 Diff Sabji, Chatni, Papad........130 INR
+              p.menus 2. Basmati Rice, Dal, Bhaja, Sabji, Dhonka, Chatni, Papad......150 INR
+              p.menus 3. Basmati Rice, Dal, Bhaja, Sabji, Paneer, Chatni, Papad........170 INR
+
+              h1 Dimer Appaayan (Egg Main Course)
+              p.menus 1. Basmati Rice, Dal, Bhaja, Sabji, 2 ( two ) Dim, Chatni, Papad1.......140 INR
+
+              h1 Chetepute Mangsho (Chicken / Mutton Main Course)
+              p.menus 1.Basmati Rice, Dal, Bhaja, Sabji, Chicken (4pcs), Chatni, Papad, Misti....220 INR
+              p.menus 2. Basmati Rice, Dal, Bhaja, Sabji, Chicken (2 pcs), Chatni, Papad, Misti....150 INR
+
+            h1 Special Combo Meal (Self Explanatory)
+            p.menus 1. Basanti Polao + Chicken Kasha (4 pcs).....300 INR
+            p.menus 2. Basanti Polao + Mutton Kasha (4 pcs)......400 INR

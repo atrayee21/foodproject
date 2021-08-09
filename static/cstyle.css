@@ -1,0 +1,22 @@
+#contactbox input, 
+#contactbox textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: darkgray;
+    } 
+    #contactbox{
+        background:url('../static/Service.jpg') center center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 66px;
+        align-items: center;
+        color: white;
+    }
+        
+        
+        
+    
+    
+    

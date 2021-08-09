@@ -1,0 +1,36 @@
+h1{
+    font-size: 40px;
+    margin: 30px;
+    padding: 10px;
+    color:rgb(227, 219, 236);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: inherit;
+}
+.heading{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding: 2px 3px;
+    margin: 2px 3px;
+}
+
+#catering
+{
+    background:url('../static/cater.jpg') center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}

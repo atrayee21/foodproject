@@ -1,0 +1,67 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+   
+
+block style
+    style   
+        include ../static/style.css
+        
+        link(rel='stylesheet', media='screen and (max-width: 944px)', href='../static/phone.css')
+block content
+    
+        
+    section#home
+      .sliderchild
+          .images
+            h1.hprimary
+              | WELCOME TO SAHA FOOD SERVICE
+            p.co
+              |Eat Good,Eat safe.Always!
+          .images
+            h1.hprimary
+              | WELCOME TO SAHA FOOD SERVICE
+            p
+              | The new exclusive Covid kitchen.
+          .images
+            h1.hprimary
+              | WELCOME TO SAHA FOOD SERVICE
+            p.co
+              | Stay fit, stay healthy!
+          .images
+            h1.hprimary
+              | WELCOME TO SAHA FOOD SERVICE
+            p
+              | No, you don't need to pay anything. The best online food delivery near me service will provide you food at your doorstep.
+          .images
+            h1.hprimary
+              | WELCOME TO SAHA FOOD SERVICE
+            p.co
+              | Save time just as you save money for food. Just provide us the address and you will get free delivery.
+
+
+    
+
+    section.services
+      h1.hsecondary.center Why order from Saha Food Service
+      #services
+        .box
+          img(src='../static/eid.jpg', alt='')
+          h2.center Healthy Home Food Service
+          p.center
+            | We ensure complete hygeine in our food service.Special care is taken during this pandemic.
+        .box
+          img(src='../static/order.png', alt='')
+          h2.center Quick delivery 
+          p.center We offer quick delivery with zero delivery charge.We ensure 100% hygeine.
+     
+    section#terms
+      h1 Terms for online ordering:
+      p 1. After placing an online order, always give us a call at 9432099064.
+      p 2. For doorstep delivery, minimum 30 minutes to be provided after online order depending on distance &preperation. 
+      p 3. Menu are subject to availability.
+      p 4. First Order at 8 a.m & Last Order at 8 p.m. 
+      
+          
+    

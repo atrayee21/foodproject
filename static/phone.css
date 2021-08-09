@@ -1,0 +1,10 @@
+#home::before{
+    height: 100px; 
+}
+#terms
+{
+    position: fixed;
+}
+#contact-box form{
+    width:80%;
+}
